@@ -60,6 +60,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 #map{
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 body {
@@ -9718,7 +9720,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(237, 173, 199, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
