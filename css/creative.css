@@ -58,9 +58,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+#map{
+  text-align: center;
+}
+
 body {
   margin: 0;
-  font-family: "Comic Sans";
+  font-family: "Merriweather Sans";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -384,7 +388,8 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.05rem;
+  font-family: "Merriweather Sans";
 }
 
 h4, .h4 {
@@ -2244,7 +2249,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 245, 238, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -2269,7 +2274,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.84);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -9366,7 +9371,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #edadc7 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9434,7 +9439,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #edadc7 !important;
 }
 
 .text-black-50 {
