@@ -173,7 +173,7 @@ a {
 }
 
 a:hover {
-  color: #FFF5EE
+  color: #FFF5EE;
   text-decoration: underline;
 }
 
@@ -2281,15 +2281,15 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #d199b6;
+  border-color: #d199b6;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e0d;
-  border-color: #e23a0d;
+  background-color: #d199b6;
+  border-color: #d199b6;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
